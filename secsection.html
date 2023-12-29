@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--divinectorweb.com-->
+<head>
+    <meta charset="UTF-8">
+    <title>backpack</title> 
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--<link rel="stylesheet" href="styles.css">-->
+    <style>
+		@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+        body {
+	margin: 0; 
+	padding: 0;
+	background: #08091d; 
+}
+h2 {
+	font-family: 'Bebas Neue', cursive;
+	color: #fff;
+	text-align: center;
+	margin: 40px 0 -50px;
+	padding-bottom: 20px;
+	background-image: url(img/border.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+.carousel{
+    height: 600px; 
+    perspective: 200px;
+    z-index: -1;
+}
+.carousel .carousel-item{
+	width: 640px;
+	height: 400px;
+}
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	max-width: 500px;
+	margin: auto;
+	text-align: center;
+	border-radius: 10px;
+	height: 450px;
+  }
+.img-area{
+	border-radius: 10px 10px 0 0;
+	height: 200px;
+	background-size: cover;
+	background-position: center center;
+}
+h4 {
+	font-size: 35px;
+	line-height: 1.5;
+	margin: 15px 0;
+	font-family: 'Bebas Neue', cursive;
+}
+.card p{
+	font-size: 17px;
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+
+
+
+
+.object-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.object-content {
+  width: 100%;
+  height: 100%;
+}
+
+.custom-container {
+    background-color: #f0f0f000;
+	margin-top: 0%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    justify-content: flex-end; /* Right alignment for larger screens */
+  }
+
+  @media (max-width: 767px) {
+    /* Media query for smaller screens */
+    .custom-container {
+      justify-content: flex-start; /* Left alignment for smaller screens */
+    }
+  }
+
+	.btn-responsive {
+      font-size: 18px; /* Default font size */
+	  font-style: 'Poppins';
+	  margin-right: 1rem;
+	  margin-bottom: 1rem;
+    }
+
+    @media (min-width: 768px) {
+      /* Medium and larger screens (md and up) */
+      .btn-responsive {
+		font-size: 20px; 
+        font-style: 'Poppins';
+		margin-right: 2rem;
+      }
+    }
+
+	
+
+	.btn-group{
+		margin-right: 2rem;
+	}
+
+	.rounded-btn {
+      border-radius: 30px;
+	   /* Adjust the border-radius value to make it more or less rounded */
+    }	
+    </style>    
+</head>
+<body>   
+    
+  <h2>Plan . Travel . Explore</h2>
+	<div class="carousel">
+		<div class="carousel-item">
+			<div class="card">
+				<div class="img-area" style="background-image: url(la.jpg);"></div>
+				<div class="container">
+					<h4>Ladakh,India</h4>
+					<p><i>The Land of High Passes, Ladakh, the newly created Union Territory in India (previously a part of Jammu & Kashmir), boasts a landscape that can leave you with your jaws dropped</i></p>
+				</div>
+			</div>
+		</div>
+		<div class="carousel-item">
+			<div class="card">
+				<div class="img-area" style="background-image: url(dwaki.jpg);"></div>
+				<div class="container">
+					<h4>Dawki,Meghalaya</h4>
+					<p><i>Dawki is popularfor its clean river and beautiful green surroundings and it acts as a gateway Bangladesh.</i></p>
+				</div>
+			</div>
+		</div>
+		<div class="carousel-item">
+			<div class="card">
+				<div class="img-area" style="background-image: url(guj1.jpg);"></div>
+				<div class="container">
+					<h4><b>Kutch,gujarat</b></h4>
+					<p><i>Kutch is a heavenly and mesmerising destination in Gujarat.Kutch boasts fantastic landscapes, mind-blowing cultural traits, and awe-inspiring history</i></p>
+				</div>
+			</div>
+		</div>
+        <div class="carousel-item">
+			<div class="card">
+				<div class="img-area" style="background-image: url(tn.jpg);"></div>
+				<div class="container">
+					<h4><b>Ranganathaswamy Temple,Tamil nadu</b></h4>
+					<p><i>Probably the most sacred Vaishnavite temple, Sri Ranganathaswamy Temple.One of the largest functioning Hindu temple in the world.</i></p>
+				</div>
+			</div>
+		</div>
+        <div class="carousel-item">
+			<div class="card">
+				<div class="img-area" style="background-image: url(g.jpg);"></div>
+				<div class="container">
+					<h4><b>Calangute Beach,goa</b></h4>
+					<p><i>Calangute Beach is a perfect tourist retreat, filled with souvenir stalls, shacks and other stalls selling everything from beer, trinkets to pawns.</i></p>
+				</div>
+			</div>
+		</div>
+		<div class="carousel-item">
+			<div class="card">
+				<div class="img-area" style="background-image: url(logo.jpeg);"></div>
+				<div class="container">
+					<h4>Many more in India.....</h4>
+					<p><i>Wanna explore more places and plan your trip now ? Get started now</i></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid custom-container">
+    <div class="btn-group mt-4" role="group" aria-label="Basic outlined example">
+        <!--<a href="index.html" class="btn btn-lg btn-outline-primary btn-responsive rounded-btn btn-large"> Go Left </a>-->
+        <a href="backpack.html" class="btn btn-outline-primary btn-responsive rounded-btn btn-large" target="_blank"> Get Started! </a>
+      </div>
+	</div>  
+    
+    <script
+  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script>
+  $(document).ready(function(){
+    $('.carousel').carousel({
+			padding: 200
+	});
+	autoplay();
+	function autoplay() {
+		$('.carousel').carousel('next');
+		setTimeout(autoplay, 4500);
+	}
+  });
+</script>
+</body>
+</html>

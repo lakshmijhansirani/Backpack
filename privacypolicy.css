@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+body {
+  margin: 20px; /* Add padding around the page */
+  background-color: #112434; /* Change the background color to a lighter shade */
+}
+
+.container {
+  max-width: 800px; /* Limit the width of the content container */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px; /* Add padding around the content inside the container */
+  background-color: #fff; /* Set a white background for the content */
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* Add a subtle box shadow */
+}
+
+p {
+  font-size: 1em;
+  color: #272626; /* Change the text color to a dark shade for better readability */
+  margin-bottom: 10px;
+  text-align: justify;
+}
